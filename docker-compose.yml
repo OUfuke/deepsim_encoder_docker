@@ -1,0 +1,8 @@
+version: '3'
+services:
+  wala3:
+    build: .
+    image: deepsim_encode
+    tty: true
+    volumes:
+      - ./volume:/volume/
